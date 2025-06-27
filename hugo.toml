@@ -1,3 +1,54 @@
-baseURL = 'https://example.org/'
+baseURL = "https://www.affaireconclue.net"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Affaire Conclue'
+theme = 'beautifulhugo'
+
+# Basic site settings
+enableEmoji = true
+enableRobotsTXT = true
+pygmentsStyle = "native"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  subtitle = "Professional DevOps Solutions"
+  # Add these lines:
+  hideAuthor = false
+  selfHosted = true
+  bgimg = "img/banner.jpg"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  mainSections = ["posts"]
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  
+  # Custom CSS/JS
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
+# Social links
+[params.social]
+  github = "Affaire-Conclue"
+
+# Navigation menu
+[[menu.main]]
+  name = "Blog"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "about"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 3

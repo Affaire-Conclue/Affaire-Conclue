@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Affaire Conclue</title>
+    <link>https://www.affaireconclue.net/</link>
+    <description>Recent content on Affaire Conclue</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.affaireconclue.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps Best Practices for 2025</title>
+      <link>https://www.affaireconclue.net/posts/devops-best-practices/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.affaireconclue.net/posts/devops-best-practices/</guid>
+      <description>&lt;p&gt;Modern DevOps practices continue to evolve in 2025. Here are some key strategies we&amp;rsquo;re implementing&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-as-code&#34;&gt;Infrastructure as Code&lt;/h2&gt;&#xA;&lt;p&gt;Using tools like Salt Stack allows us to&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;monitoring-solutions&#34;&gt;Monitoring Solutions&lt;/h2&gt;&#xA;&lt;p&gt;With Grafana and Prometheus, we&amp;rsquo;ve been able to&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Affaire Conclue</title>
+      <link>https://www.affaireconclue.net/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.affaireconclue.net/page/about/</guid>
+      <description>&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;&#xA;&lt;p&gt;Affaire Conclue is dedicated to providing top-tier IT solutions and knowledge sharing in the DevOps space.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-expertise&#34;&gt;Our Expertise&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Salt Stack management and automation&lt;/li&gt;&#xA;&lt;li&gt;Bash and PowerShell scripting&lt;/li&gt;&#xA;&lt;li&gt;Rundeck workflows&lt;/li&gt;&#xA;&lt;li&gt;Sonatype Nexus repository management&lt;/li&gt;&#xA;&lt;li&gt;Grafana and Prometheus monitoring solutions&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
