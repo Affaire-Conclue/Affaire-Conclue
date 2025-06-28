@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Hugo Resume Website Auto-Deployment Script.
+# Hugo Resume Website Auto-Deployment Script
 # This script handles automated deployment from GitHub prod branch
 # Place this script at: /home/samwise/webhook-listener/deploy.sh
 
@@ -13,6 +13,38 @@ SERVE_DIR="/srv"
 LOG_FILE="/home/samwise/logs/hugo-deploy.log"
 BACKUP_DIR="/home/samwise/backups/site"
 WEBHOOK_SECRET_FILE="/home/samwise/webhook-listener/.webhook_secret"
+
+# Force build flag
+FORCE_BUILD=false
+
+# Parse command line arguments
+parse_arguments() {
+    while [[ $# -gt 0 ]]; do
+        case $1 in
+            --force|-f)
+                FORCE_BUILD=true
+                log "Force build enabled - will build regardless of changes"
+                shift
+                ;;
+            webhook)
+                # Keep existing webhook mode
+                shift
+                ;;
+            -h|--help)
+                echo "Usage: $0 [OPTIONS]"
+                echo "Options:"
+                echo "  -f, --force    Force build even if no changes detected"
+                echo "  webhook        Run in webhook mode"
+                echo "  -h, --help     Show this help message"
+                exit 0
+                ;;
+            *)
+                log "Unknown option: $1"
+                shift
+                ;;
+        esac
+    done
+}
 
 # Logging function
 log() {
@@ -87,10 +119,14 @@ update_repository() {
     log "Previous commit: $OLD_COMMIT"
     log "Current commit: $NEW_COMMIT"
     
-    # Check if there are actually new changes
-    if [ "$OLD_COMMIT" = "$NEW_COMMIT" ]; then
+    # Check if there are actually new changes (unless force is enabled)
+    if [ "$OLD_COMMIT" = "$NEW_COMMIT" ] && [ "$FORCE_BUILD" = false ]; then
         log "No new changes detected, skipping build"
         return 1
+    fi
+    
+    if [ "$FORCE_BUILD" = true ]; then
+        log "Force build enabled - proceeding with build"
     fi
     
     return 0
@@ -192,6 +228,9 @@ health_check() {
 main() {
     log "=== Starting Hugo deployment process ==="
     
+    # Parse command line arguments
+    parse_arguments "$@"
+    
     # Trap errors for rollback
     trap 'rollback; exit 1' ERR
     
@@ -201,8 +240,10 @@ main() {
     
     # Update repository and check for changes
     if ! update_repository; then
-        log "=== No deployment needed - no new changes ==="
-        exit 0
+        if [ "$FORCE_BUILD" = false ]; then
+            log "=== No deployment needed - no new changes ==="
+            exit 0
+        fi
     fi
     
     build_site
@@ -238,12 +279,13 @@ webhook_handler() {
         fi
     fi
     
-    main
+    main "$@"
 }
 
 # Check if running in webhook mode
 if [ "$1" = "webhook" ]; then
-    webhook_handler
+    shift  # Remove 'webhook' from arguments
+    webhook_handler "$@"
 else
-    main
+    main "$@"
 fi
