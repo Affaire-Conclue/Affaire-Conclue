@@ -1,6 +1,6 @@
-baseURL = "https://www.affaireconclue.net"
+baseURL = "https://www.oidrissi.com"
 languageCode = 'en-us'
-title = 'Oussama IDRISSI'
+title = 'Personal stuffs'
 theme = 'beautifulhugo'
 
 # Basic site settings
@@ -45,7 +45,7 @@ pygmentsUseClasses = true
 
 [[menu.main]]
   name = "About"
-  url = "about"
+  url = "page/about"
   weight = 2
 
 [[menu.main]]

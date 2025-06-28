@@ -1,8 +1,8 @@
 ---
-title: 'Affaire Conclue'
+title: 'Oussama IDRISSI'
 subtitle: 'Your Professional IT Solutions Hub'
 bigimg:
   - { src: 'img/banner.jpg', desc: 'Banner' }
 ---
 
-Welcome to Affaire Conclue, your source for professional IT knowledge and solutions.
+Welcome to OIDRISSI, your source for professional IT knowledge and solutions.
