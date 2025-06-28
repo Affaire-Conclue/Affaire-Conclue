@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GitHub Webhook Listener for Hugo Deployment
+GitHub Webhook Listener for Hugo Deployment.
 This service listens for GitHub webhooks and triggers Hugo deployment
 Place this script at: /home/samwise/webhook-listener/webhook_listener.py
 """

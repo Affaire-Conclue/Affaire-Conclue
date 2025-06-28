@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Hugo Resume Website Auto-Deployment Script
+# Hugo Resume Website Auto-Deployment Script.
 # This script handles automated deployment from GitHub prod branch
 # Place this script at: /home/samwise/webhook-listener/deploy.sh
 

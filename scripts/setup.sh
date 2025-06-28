@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Hugo Resume Website Setup Script
+# Hugo Resume Website Setup Script.
 # This script sets up the complete CI/CD pipeline and website improvements
 
 set -e
