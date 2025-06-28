@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Affaire Conclue</title>
-    <link>https://www.affaireconclue.net/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Affaire Conclue</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.affaireconclue.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>https://www.affaireconclue.net/tags/automation/</link>
+      <link>http://localhost:1313/tags/automation/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.affaireconclue.net/tags/automation/</guid>
+      <guid>http://localhost:1313/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Best Practices</title>
-      <link>https://www.affaireconclue.net/tags/best-practices/</link>
+      <link>http://localhost:1313/tags/best-practices/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.affaireconclue.net/tags/best-practices/</guid>
+      <guid>http://localhost:1313/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>https://www.affaireconclue.net/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.affaireconclue.net/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
   </channel>
