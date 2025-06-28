@@ -8,8 +8,8 @@ set -e  # Exit on any error
 
 # Configuration
 REPO_DIR="/home/samwise/caddy_setup/affaireconclue-source"
-BUILD_DIR="/home/samwise/caddy_setup/site"
-SERVE_DIR="/srv"
+BUILD_DIR="/home/samwise/caddy_setup/build"
+SERVE_DIR="/home/samwise/caddy_setup/site"
 LOG_FILE="/home/samwise/logs/hugo-deploy.log"
 BACKUP_DIR="/home/samwise/backups/site"
 WEBHOOK_SECRET_FILE="/home/samwise/webhook-listener/.webhook_secret"
