@@ -1,9 +1,10 @@
 ---
-title: 'About Me'
+title: "About Me"
+subtitle: "Professional IT Specialist"
 date: 2025-06-28
 draft: false
-description: 'Professional IT specialist with 20+ years of experience transitioning from .NET development to modern DevOps practices'
-keywords: ['DevOps', 'Salt Stack', 'Rundeck', 'IT', 'Development', '.NET', 'PowerShell', 'Python', 'Infrastructure']
+description: "Professional IT specialist with 20+ years of experience transitioning from .NET development to modern DevOps practices"
+keywords: ["DevOps", "Salt Stack", "Rundeck", "IT", "Development", ".NET", "PowerShell", "Python", "Infrastructure"]
 ---
 
 # About Me
@@ -17,21 +18,18 @@ With over 20 years of experience in IT, I've evolved from a certified .NET devel
 Today, I work in a large IT department focusing on DevOps operations and system administration. My daily responsibilities include:
 
 **DevOps & Configuration Management**
-
 - Salt Stack implementation and maintenance for infrastructure automation
 - Rundeck orchestration for job scheduling and workflow management
 - Docker containerization and deployment strategies
 - Infrastructure monitoring with Grafana and Prometheus
 
 **Systems Operations**
-
 - Repository management with Sonatype Nexus
 - Performance monitoring and alerting systems
 - Linux system administration and automation
 - Network and DNS configuration management
 
 **Development & Scripting**
-
 - PowerShell automation for Windows environments
 - Python scripting for system integration and data processing
 - Bash scripting for Linux automation tasks
@@ -67,7 +65,6 @@ I believe in the power of automation to solve complex problems while maintaining
 ## Skills & Technologies
 
 ### DevOps Tools
-
 - **Configuration Management**: Salt Stack, Rundeck
 - **Containerization**: Docker, container orchestration
 - **Virtualization**: Proxmox, VM management
@@ -76,21 +73,18 @@ I believe in the power of automation to solve complex problems while maintaining
 - **Version Control**: Git, CI/CD pipelines, Infrastructure as Code
 
 ### Programming & Scripting
-
 - **.NET Development**: .NET Framework/Core, C#, ASP.NET
 - **Database Technologies**: SQL Server, T-SQL, SSIS, SSRS, SSAS
 - **Scripting Languages**: PowerShell, Python, Bash
 - **Web Technologies**: HTML, CSS, JavaScript
 
 ### System Administration
-
 - **Operating Systems**: Linux (CentOS, Ubuntu, Debian), Windows Server
 - **Networking**: DNS management, reverse proxies, network configuration
 - **Infrastructure**: Self-hosting, service deployment and management
 - **Security**: Best practices implementation across development lifecycle
 
 ### Monitoring & Observability
-
 - **Dashboard Creation**: Custom monitoring dashboards
 - **Alert Management**: Alert configuration and escalation procedures
 - **Performance Optimization**: System tuning and optimization
@@ -106,7 +100,7 @@ Whether working on infrastructure automation, application deployment, or system 
 
 ## Connect With Me
 
-- **Professional Network**: [LinkedIn Profile](#)
+- **Professional Network**: [LinkedIn Profile](#) 
 - **Technical Projects**: [GitHub Repository](https://github.com/Affaire-Conclue)
 - **Photography**: [Personal Gallery](https://photos.oidrissi.com)
 - **Blog**: [Technical Articles](/blog)
